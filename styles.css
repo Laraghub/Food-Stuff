@@ -1,0 +1,167 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #3a524e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 30px 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007b5f;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: #007b5f;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+/* Form Styles */
+.order-form label,
+.order-form input,
+.order-form select,
+.order-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.order-form button {
+  background-color: #007b5f;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.order-form button:hover {
+  background-color: #005a46;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3a524e;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Offer Items */
+.offers {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.offer-item {
+  width: 45%;
+}
+
+.offer-item h3 {
+  color: #007b5f;
+  margin-bottom: 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us ul {
+  padding-left: 20px;
+}
+
+.why-choose-us ul li {
+  margin-bottom: 10px;
+}
+
+#cart-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+#cart-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#cart-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background-color: #007b5f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005a46;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+    <title>ARBYKE All Essentials Store</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="image.png" alt="ARBYKE All Essential Logo" class="logo">
+            <h1>ARBYKE All Essentials</h1>
+        </div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#our-vision">Our Vision</a>
+            <a href="#our-mission">Our Mission</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>All Essentials Store is a comprehensive retail business dedicated to providing a wide range of quality products to meet the everyday needs of our customers. Whether you're looking for household items, personal care products, groceries, or lifestyle essentials, we’ve got you covered. Our mission is to simplify your shopping experience by offering a curated selection of reliable and affordable products all under one roof.</p>
+    </section>
+
+    <section id="our-vision" class="our-vision">
+        <h2>Our Vision</h2>
+        <p>To become the go-to destination for all essential products, creating convenience, affordability, and trust within the communities we serve.</p>
+    </section>
+
+    <section id="our-mission" class="our-mission">
+        <h2>Our Mission</h2>
+        <p>To deliver exceptional value through quality products, excellent customer service, and a seamless shopping experience.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Phone: +1234567900</p>
+        <p>Email: arbykefodies@aol.co.uk</p>
+        <p>IG: arbykefoodies</p>
+    </section>F
+
+    <section>
+        <h2>What We Offer</h2>
+        <div class="offers">
+            <div class="offer-item">
+                <h3>Non-perishable Foods</h3>
+                <ul>
+                    <li>Rice</li>
+                    <li>Beans</li>
+                    <li>Yam flour</li>
+                    <li>Beverages</li>
+                </ul>
+            </div>
+            <div class="offer-item">
+                <h3>Lifestyle & Fashion Essentials</h3>
+                <ul>
+                    <li>Hair care</li>
+                    <li>Fabrics</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li>Convenience: Everything you need in one place, saving you time and effort.</li>
+            <li>Quality Assurance: We carefully select products to ensure they meet high standards.</li>
+            <li>Affordability: Competitive pricing to give you the best value for your money.</li>
+            <li>Customer-Centric: Friendly and helpful staff dedicated to enhancing your shopping experience.</li>
+        </ul>
+    </section>
+
+    <section class="order-form">
+        <h2>Place Your Order</h2>
+        <form id="order-form">
+            <!-- Product Selection -->
+            <label for="product">Select Product:</label>
+            <select id="product" name="product">
+                <option value="rice">Rice</option>
+                <option value="long-grain-rice">Long-grain Rice</option>
+                <option value="basmati-rice">Basmati Rice</option>
+                <option value="ofada-rice">Ofada Rice</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            <button type="submit">Add to Cart</button>
+            
+            <select>
+                <option value="beans">Beans</option>
+                <option value="yam-flour">Yam Flour</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            <button type="submit">Add to Cart</button>
+
+                <label for="product">Select Product:</label>
+            <select id="product" name="product">
+                <option value="beverages">Beverages</option>
+                <option value="milo">Milo</option>
+                <option value="bournvita">Bournvita</option>
+                <option value="cadbury-hot-chocolate">Cadbury-hot-Chocolata</option>
+              </select>
+              <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            <button type="submit">Add to Cart</button>
+
+
+            <label for="product">Select Product:</label>
+            <select id="product" name="product">
+                <option value="hair-care">Hair Extensions</option>
+                <option value="expression">Expression</option>
+                <option value="bone-straight">Bone Straight</option>
+                <option value="curly-hair">Curly Hair</option>
+              </select>
+             <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+              <button type="submit">Add to Cart</button> 
+             
+             <label for="product">Select Product:</label>
+                <select id="product" name="product">
+                <option value="fabrics-/-ready-to-wear">Fabrics / Ready To Wear</option>
+                <option value="ready-made">Ready-Made</option>
+                <option value="materials">Materials</option>
+                </select>
+                <button type="submit">Add to Cart</button>
+                
+
+            <!-- Quantity -->
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+        
+            <section id="cart-section">
+                <h2>Your Cart</h2>
+                <ul id="cart-list"></ul>
+                <button id="checkout-button">Checkout</button>
+            </section>
+
+            <!-- Customer Information -->
+            <h3>Shipping Information</h3>
+            <label for="name">Full Name:</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <!-- Payment Method (Optional for now) -->
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="cash-on-delivery">Cash on Delivery</option>
+            </select>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Visit us today and discover the difference of shopping with ease and confidence.</p>
+    </footer>
+
+</body>
+</html>
