@@ -91,7 +91,9 @@
             <input type="number" id="quantity" name="quantity" min="1" value="1" required>
             <button type="submit">Add to Cart</button>
             
-            <select>
+            
+            <label for="product">Select Product:</label>
+            <select id="product" name="product">
                 <option value="beans">Beans</option>
                 <option value="yam-flour">Yam Flour</option>
             </select>
@@ -128,13 +130,11 @@
                 <option value="ready-made">Ready-Made</option>
                 <option value="materials">Materials</option>
                 </select>
-                <button type="submit">Add to Cart</button>
-                
-
-            <!-- Quantity -->
-            <label for="quantity">Quantity:</label>
+                <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+              <button type="submit">Add to Cart</button> 
 
+            
         
             <section id="cart-section">
                 <h2>Your Cart</h2>
